@@ -8,17 +8,17 @@ public class StudentTest {
 
 	public static void main(String[] args) {
 
-		Student SInform;
+		Student SInfo;
 		
 		SInform = new Student();
 		
-		SInform.name = "Kim";
-		SInform.rollno = 20180001;
-		SInform.age = 20;
+		SInfo.name = "Kim";
+		SInfo.rollno = 20180001;
+		SInfo.age = 20;
 		
-		System.out.println("ÇĞ»ıÀÇ ÀÌ¸§: "+SInform.name);
-		System.out.println("ÇĞ»ıÀÇ ÇĞ¹ø: "+SInform.rollno);
-		System.out.println("ÇĞ»ıÀÇ ³ªÀÌ: "+SInform.age);
+		System.out.println("í•™ìƒì˜ ì´ë¦„: "+SInfo.name);
+		System.out.println("í•™ìƒì˜ í•™ë²ˆ: "+SInfo.rollno);
+		System.out.println("í•™ìƒì˜ ë‚˜ì´: "+SInfo.age);
 		
 	}
 
