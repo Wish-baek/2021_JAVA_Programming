@@ -8,17 +8,17 @@ public class StudentTest {
 
 	public static void main(String[] args) {
 
-		Student SInform;
+		Student SInfo;
 		
-		SInform = new Student();
+		SInfo = new Student();
 		
-		SInform.name = "Kim";
-		SInform.rollno = 20180001;
-		SInform.age = 20;
+		SInfo.name = "Kim";
+		SInfo.rollno = 20180001;
+		SInfo.age = 20;
 		
-		System.out.println("학생의 이름: "+SInform.name);
-		System.out.println("학생의 학번: "+SInform.rollno);
-		System.out.println("학생의 나이: "+SInform.age);
+		System.out.println("학생의 이름: "+SInfo.name);
+		System.out.println("학생의 학번: "+SInfo.rollno);
+		System.out.println("학생의 나이: "+SInfo.age);
 		
 	}
 
